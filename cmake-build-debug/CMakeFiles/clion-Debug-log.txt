@@ -1,26 +1,12 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/Nate/Projects/EVT/Underglow -B /Users/Nate/Projects/EVT/Underglow/cmake-build-debug
-CMake Error at CMakeLists.txt:38 (add_subdirectory):
-  The source directory
-
-    /Users/Nate/Projects/EVT/Underglow/libs/EVT-core
-
-  does not contain a CMakeLists.txt file.
-
-
-CMake Error at CMakeLists.txt:41 (include):
-  include could not find requested file:
-
-    /Users/Nate/Projects/EVT/Underglow/libs/EVT-core/cmake/evt-core_compiler.cmake
-
-
-CMake Error at CMakeLists.txt:42 (include):
-  include could not find requested file:
-
-    /Users/Nate/Projects/EVT/Underglow/libs/EVT-core/cmake/evt-core_install.cmake
-
-
-CMake Error at CMakeLists.txt:49 (message):
-  You must set the template project name in the top-level CMakeLists.txt
+CMake Error: Parse error in cache file /Users/Nate/Projects/EVT/Underglow/cmake-build-debug/CMakeCache.txt on line 311. Offending entry: <<<<<<< Updated upstream
+CMake Error: Parse error in cache file /Users/Nate/Projects/EVT/Underglow/cmake-build-debug/CMakeCache.txt on line 315. Offending entry: >>>>>>> Stashed changes
+-- STM32F334x8 targeted
+-- Found clang-format: /opt/homebrew/bin/clang-format
+-- STM32F334x8 targeted
+CMake Error at targets/CMakeLists.txt:2:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "<<<<<<<".
 
 
 -- Configuring incomplete, errors occurred!
