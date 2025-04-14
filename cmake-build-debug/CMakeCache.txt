@@ -283,9 +283,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Value Computed by CMake
 EVT_BINARY_DIR:STATIC=/Users/Nate/Projects/EVT/Underglow/cmake-build-debug/libs/EVT-core
 
-//Build the EVT core samples
-EVT_BUILD_SAMPLES:BOOL=ON
-
 //Value Computed by CMake
 EVT_IS_TOP_LEVEL:STATIC=OFF
 
@@ -300,6 +297,15 @@ HALf3_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 HALf3_SOURCE_DIR:STATIC=/Users/Nate/Projects/EVT/Underglow/libs/EVT-core/libs/HALf3
+
+//Value Computed by CMake
+Neopixel-Driver-Test_BINARY_DIR:STATIC=/Users/Nate/Projects/EVT/Underglow/cmake-build-debug/targets/Neopixel-Driver-Test
+
+//Value Computed by CMake
+Neopixel-Driver-Test_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Neopixel-Driver-Test_SOURCE_DIR:STATIC=/Users/Nate/Projects/EVT/Underglow/targets/Neopixel-Driver-Test
 
 //Value Computed by CMake
 REV-Underglow_BINARY_DIR:STATIC=/Users/Nate/Projects/EVT/Underglow/cmake-build-debug/targets/REV-Underglow
@@ -756,7 +762,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=43
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJDUMP
 CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //Platform information initialized
@@ -795,6 +801,8 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Build the EVT core samples
+EVT_BUILD_SAMPLES:INTERNAL=ON
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 

@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "libs/EVT-core/samples/button",
-		"source" : "libs/EVT-core/samples/button"
+		"build" : "targets/Neopixel-Driver-Test",
+		"source" : "targets/Neopixel-Driver-Test"
 	}
 }

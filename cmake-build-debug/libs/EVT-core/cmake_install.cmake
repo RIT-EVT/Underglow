@@ -105,8 +105,3 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/EVT" TYPE DIRECTORY FILES "/Users/Nate/Projects/EVT/Underglow/libs/EVT-core/include/")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/Nate/Projects/EVT/Underglow/cmake-build-debug/libs/EVT-core/samples/cmake_install.cmake")
-endif()
-

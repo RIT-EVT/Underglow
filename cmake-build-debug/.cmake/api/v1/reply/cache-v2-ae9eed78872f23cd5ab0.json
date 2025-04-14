@@ -30,22 +30,6 @@
 			"value" : "/opt/homebrew/bin/arm-none-eabi-addr2line"
 		},
 		{
-			"name" : "CMAKE_ASM_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_ASM_COMPILER_AR",
 			"properties" : 
 			[
@@ -278,22 +262,6 @@
 			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest"
 		},
 		{
-			"name" : "CMAKE_CXX_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
 			"properties" : 
 			[
@@ -404,22 +372,6 @@
 			],
 			"type" : "STRING",
 			"value" : "-O2 -g -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -1123,7 +1075,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "43"
+			"value" : "7"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1534,7 +1486,7 @@
 					"value" : "Build the EVT core samples"
 				}
 			],
-			"type" : "BOOL",
+			"type" : "INTERNAL",
 			"value" : "ON"
 		},
 		{
@@ -1596,6 +1548,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/Nate/Projects/EVT/Underglow/libs/EVT-core/libs/HALf3"
+		},
+		{
+			"name" : "Neopixel-Driver-Test_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Nate/Projects/EVT/Underglow/cmake-build-debug/targets/Neopixel-Driver-Test"
+		},
+		{
+			"name" : "Neopixel-Driver-Test_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Neopixel-Driver-Test_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Nate/Projects/EVT/Underglow/targets/Neopixel-Driver-Test"
 		},
 		{
 			"name" : "REV-Underglow_BINARY_DIR",
