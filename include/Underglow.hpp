@@ -10,4 +10,4 @@ public:
 private:
 };
 
-}// namespace UNDERGLOW
+}// namespace BOARD_NAME
